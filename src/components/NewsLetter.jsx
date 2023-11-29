@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function NewsLetter() {
   return (
-    <div className='bg-[#2699fb] p-4'>
+    <div className='bg-[#2699fb] py:6 md:pl-[70px] px-6'>
 
-        <div className=" max-w-[1100px] md:flex justify-between py-[50px] ">
+        <div className=" max-w-[1100px] md:flex justify-between py-[50px]">
 
             <div className='m-2'>
 

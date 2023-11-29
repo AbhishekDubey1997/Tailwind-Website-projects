@@ -9,13 +9,13 @@ import {
 const Footer = () => {
   return (
 
-    <div className='bg-[#2699fb] max-w-[1265px]  mx-auto py-12 px-8 md:grid lg:grid-cols-3  text-white'>
-      <div>
-        <h1 className='w-full text-3xl font-bold text-black text:center '>WsCube Tech.</h1>
+    <div className='bg-[#2699fb] max-w-[1265px]  mx-auto  py-[50px] md:pl-[80px] md:grid lg:grid-cols-3  text-white'>
+      <div className='pl-8 md:pl-1'>
+        <h1 className='w-full text-3xl font-bold text-black  '>WsCube Tech.</h1>
 
-        <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+        <p className='py-4 pr-6'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
 
-        <div className='flex justify-evenly md:w-[75%] my-6'>
+        <div className='flex justify-between w-[60%] my-6 mr:10'>
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
           <FaTwitterSquare size={30} />
@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
 
 
-      <div className='lg:col-span-2 flex justify-evenly mt-1'>
+      <div className='lg:col-span-2 flex justify-evenly md:mt-1 mt:10 '>
         <div>
 
           <h6 className='font-medium  text-black'>Solutions</h6>
@@ -41,7 +41,7 @@ const Footer = () => {
           <h6 className='font-medium text-black'>Support</h6>
           <ul>
             <li className='py-2 text-sm'>Pricing</li>
-            <li className='py-2 text-sm'>Documentation</li>
+            <li className='py-2 text-sm'>Document</li>
             <li className='py-2 text-sm'>Guides</li>
             <li className='py-2 text-sm'>API Status</li>
           </ul>

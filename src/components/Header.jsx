@@ -23,7 +23,7 @@ export default function Header() {
             
             }
             
-            <ul className='hidden md:flex text-white gap-10'>
+            <ul className='hidden md:flex  text-white gap-10 cursor-pointer'>
                 <li>Home</li>
                 <li>Company</li>
                 <li>Resources</li>
@@ -37,11 +37,11 @@ export default function Header() {
             ${toggle ? 'left-[0]' : 'left-[-100%]'}
             `}>
 
-                <li className='p-4' >Home</li>
-                <li className='p-4'>Company</li>
-                <li className='p-4'>Resources</li>
-                <li className='p-4'>About</li>
-                <li className='p-4'>Contact</li>
+                <li className='text-center p-4 text-2xl mt-[80px]' >Home</li>
+                <li className='text-center p-4 text-2xl'>Company</li>
+                <li className='text-center p-4 text-2xl'>Resources</li>
+                <li className='text-center p-4 text-2xl'>About</li>
+                <li className='text-center p-4 text-2xl'>Contact</li>
                 
             </ul>    
         </div>
