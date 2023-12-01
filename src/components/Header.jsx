@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { IoMenuSharp } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -24,11 +25,12 @@ export default function Header() {
             }
             
             <ul className='hidden md:flex  text-white gap-10 cursor-pointer'>
-                <li>Home</li>
-                <li>Company</li>
-                <li>Resources</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><Link to="/">Company</Link></li>
+                <li><Link to="/Tutorials">Tutorials</Link></li>
+                <li><Link to="/Contact">Contact</Link></li>
+                <li><Link to="/Resources">Resources</Link></li>
+                
+                
             </ul>
 
             {/* responsive menu */}
@@ -37,11 +39,11 @@ export default function Header() {
             ${toggle ? 'left-[0]' : 'left-[-100%]'}
             `}>
 
-                <li className='text-center p-4 text-2xl mt-[80px]' >Home</li>
-                <li className='text-center p-4 text-2xl'>Company</li>
-                <li className='text-center p-4 text-2xl'>Resources</li>
-                <li className='text-center p-4 text-2xl'>About</li>
-                <li className='text-center p-4 text-2xl'>Contact</li>
+                <li className='text-center p-4 text-2xl mt-[80px]' ><Link to="/">Company</Link></li>
+                <li className='text-center p-4 text-2xl'><Link to="/Tutorials">Tutorials</Link></li>
+                <li className='text-center p-4 text-2xl'><Link to="/Contact">Contact</Link></li>
+                <li className='text-center p-4 text-2xl'><Link to="/Resources">Resources</Link></li>
+            
                 
             </ul>    
         </div>

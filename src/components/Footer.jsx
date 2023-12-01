@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
 
-    <div className='bg-[#2699fb] max-w-[1265px]  mx-auto  py-[50px] md:pl-[80px] md:grid lg:grid-cols-3  text-white'>
+    <div className='bg-[#2699fb] max-w-[1280px]  mx-auto   py-[50px] md:pl-[80px] md:grid lg:grid-cols-3  text-white'>
       <div className='pl-8 md:pl-1'>
         <h1 className='w-full text-3xl font-bold text-black  '>WsCube Tech.</h1>
 
