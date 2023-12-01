@@ -39,10 +39,10 @@ export default function Header() {
             ${toggle ? 'left-[0]' : 'left-[-100%]'}
             `}>
 
-                <li className='text-center p-4 text-2xl mt-[80px]' ><Link to="/">Company</Link></li>
-                <li className='text-center p-4 text-2xl'><Link to="/Tutorials">Tutorials</Link></li>
-                <li className='text-center p-4 text-2xl'><Link to="/Contact">Contact</Link></li>
-                <li className='text-center p-4 text-2xl'><Link to="/Resources">Resources</Link></li>
+                <li className='text-center p-4 text-2xl mt-[80px]' ><Link to="/" onClick={()=>setToggle(!toggle)}>Company</Link></li>
+                <li className='text-center p-4 text-2xl'><Link to="/Tutorials"onClick={()=>setToggle(!toggle)}>Tutorials</Link></li>
+                <li className='text-center p-4 text-2xl'><Link to="/Contact"onClick={()=>setToggle(!toggle)}>Contact</Link></li>
+                <li className='text-center p-4 text-2xl'><Link to="/Resources"onClick={()=>setToggle(!toggle)}>Resources</Link></li>
             
                 
             </ul>    
