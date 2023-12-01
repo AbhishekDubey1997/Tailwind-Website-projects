@@ -27,8 +27,9 @@ export default function Header() {
             <ul className='hidden md:flex  text-white gap-10 cursor-pointer'>
                 <li><Link to="/">Company</Link></li>
                 <li><Link to="/Tutorials">Tutorials</Link></li>
-                <li><Link to="/Contact">Contact</Link></li>
                 <li><Link to="/Resources">Resources</Link></li>
+                <li><Link to="/Contact">Contact</Link></li>
+                
                 
                 
             </ul>
@@ -41,8 +42,9 @@ export default function Header() {
 
                 <li className='text-center p-4 text-2xl mt-[80px]' ><Link to="/" onClick={()=>setToggle(!toggle)}>Company</Link></li>
                 <li className='text-center p-4 text-2xl'><Link to="/Tutorials"onClick={()=>setToggle(!toggle)}>Tutorials</Link></li>
-                <li className='text-center p-4 text-2xl'><Link to="/Contact"onClick={()=>setToggle(!toggle)}>Contact</Link></li>
                 <li className='text-center p-4 text-2xl'><Link to="/Resources"onClick={()=>setToggle(!toggle)}>Resources</Link></li>
+                <li className='text-center p-4 text-2xl'><Link to="/Contact"onClick={()=>setToggle(!toggle)}>Contact</Link></li>
+                
             
                 
             </ul>    

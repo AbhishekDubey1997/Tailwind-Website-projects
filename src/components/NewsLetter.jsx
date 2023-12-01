@@ -9,8 +9,8 @@ import {
 export default function NewsLetter() {
   return (
     <>
-    <div className="bg-[#2699fb] h-full py-[200px] md:py-[140px] md:pl-[70px] px-6 ">
-      <div className=" max-w-[1100px] md:flex justify-between py-[50px]">
+    <div className="bg-[#2699fb] h-full pb-[360px] pt-[100px] md:py-[140px] md:pl-[70px] px-6 ">
+      <div className=" max-w-[1100px] md:flex justify-between py-[5px] md:py-[50px]">
         <div className="m-2">
           <h1 className=" text-[25px] md:text-[40px] text-white font-bold ">
             Want to learn latest I.T skills?
